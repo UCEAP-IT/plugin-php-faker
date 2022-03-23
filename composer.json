@@ -23,10 +23,25 @@
       "PatternLab\\Faker": "src/"
     }
   },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "pattern-lab/core",
+        "version": "dev-develop",
+        "type": "library",
+        "source": {
+          "url": "https://github.com/UCEAP-IT/patternlab-php-core.git",
+          "type": "git",
+          "reference": "v3.0.0"
+        }
+      }
+    }
+  ],
   "require": {
-    "php":              ">=5.4",
-    "pattern-lab/core": "^2.3.0",
-    "fzaninotto/faker": "^1.0.0"
+    "php":              ">=7.1",
+    "pattern-lab/core": "dev-develop",
+    "fakerphp/faker": "^1.19"
   },
   "extra": {
     "patternlab": {
